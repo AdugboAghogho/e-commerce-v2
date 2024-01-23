@@ -5,11 +5,11 @@ import Product from './Product/Product';
 import useStyles from './styles';
 
 const products = [
-  { id: 1, name: 'Shoes', description: 'Running shoes.' },
-  { id: 2, name: 'Macbook', description: 'Apple macbook.' },
+  { id: 1, name: 'Shoes', description: 'Running shoes.', price: '$5'  },
+  { id: 2, name: 'Macbook', description: 'Apple macbook.', price: '$15'  },
 ];
 
-const Products = ({ products, onAddToCart }) => {
+const Products = () => {
   const classes = useStyles();
 
   if (!products.length) return <p>Loading...</p>;
