@@ -1,9 +1,10 @@
 import React from "react";
+import Product from "./components/Products/Product/Product";
 
 function App() {
   return (
     <div >
-      <h1>HEllO KELVIN</h1>
+      <Product />
     </div>
   );
 }
