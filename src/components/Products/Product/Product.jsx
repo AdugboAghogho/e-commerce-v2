@@ -1,9 +1,8 @@
 import React from 'react';
 import { Card, CardMedia, CardContent, CardActions, Typography, IconButton } from '@material-ui/core';
-
+import { AddShoppingCart } from '@material-ui/icons';
 
 import useStyles from './styles';
-import { AddShoppingCart } from '@mui/icons-material';
 
 const Product = ({ product, onAddToCart }) => {
   const classes = useStyles();
@@ -34,3 +33,4 @@ const Product = ({ product, onAddToCart }) => {
 };
 
 export default Product;
+
